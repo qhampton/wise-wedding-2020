@@ -1,0 +1,103 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: rgb(4, 87, 4);
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color:rgb(4, 87, 4);
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  a.brand-logo.center{
+    font-size:5vw;
+  }
+  h1{
+    font-size:5vw; 
+  }
+  h2{
+    font-size:5vw; 
+  }
+  h3{
+    font-size:5vw; 
+  }
+  h4{
+    font-size:5vw; 
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  a.brand-logo.center{
+    font-size:8vw;
+  }
+  h1{
+    font-size:8vw; 
+  }
+  h2{
+    font-size:8vw; 
+  }
+  h3{
+    font-size:8vw; 
+  }
+  h4{
+    font-size:8vw; 
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;}
+
+.new-text{
+  font-family: 'Uncial Antiqua', cursive;
+}
+
+.gold-color{
+  background-color: goldenrod;
+}
+
+.green-text{
+  color: rgb(4, 87, 4);
+}
+
+.gold-text{
+  color: goldenrod;
+}
